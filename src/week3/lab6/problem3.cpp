@@ -3,7 +3,7 @@ using namespace std;
 
 void fun(double r) {
     if (r < 0) {
-        cout << "error: r<0!" << endl;
+        cout << "error: r>0!" << endl;
         return;
     }
 
