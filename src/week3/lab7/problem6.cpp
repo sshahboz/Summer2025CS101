@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void reverseDigits(int &x) {
+void reverse(int &x) {
     int reversed = 0;
     int original = x;
 
@@ -21,7 +21,7 @@ int main() {
     cout << "number: ";
     cin >> num;
 
-    reverseDigits(num);
+    reverse(num);
 
     cout << "reversed number: " << num << endl;
 
