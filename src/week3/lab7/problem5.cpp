@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Function to compute factorial; default parameter is 1
 int factorial(int n = 1) {
     int result = 1;
     for (int i = 2; i <= n; ++i) {
