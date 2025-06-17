@@ -7,7 +7,7 @@ int cubeOfDigits(int number) {
     int n = number;
     while (n > 0) {
         int digit = n % 10;
-        sum += digit * digit * digit;  // Cube of digit
+        sum += digit * digit * digit;
         n /= 10;
     }
     return sum;
