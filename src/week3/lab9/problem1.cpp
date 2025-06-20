@@ -6,7 +6,6 @@ int main() {
     int n;
     cout << "n numbers: ";
     cin >> n;
-
     vector<int> numbers(n);
     int sum = 0;
 
